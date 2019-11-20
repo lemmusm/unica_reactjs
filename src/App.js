@@ -12,7 +12,7 @@ const App = () => (
         <NavbarNavigation />
         <Layout>
           <Switch>
-            <Route exact path="/inicio" component={Principal} />
+            <Route exact path="/" component={Principal} />
           </Switch>
         </Layout>
       </Router>

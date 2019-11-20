@@ -32,11 +32,15 @@ const Styles = styled.div`
         margin-left: auto;
     }
 
-    .dropdown-submenu {
+    .dropdown {
         position: relative;
     }
-    .dropdown-item:hover {
-        background-color: #FF7964
+    .dropdown-item {
+        font-size: .92em;
+        font-weight: bold;
+        &:hover {
+            color: #FF7964 !important
+        }
     }
     .dropdown>.dropdown-menu {
         margin-top: -10px;
@@ -60,17 +64,27 @@ const NavbarNavigation = () => (
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                     <Nav >
-                        <Link to="/inicio">
-                            <Nav.Link>INICIO</Nav.Link>
+                        <Link className="nav-link" to="/">
+                            INICIO
                         </Link>
-                        <Nav.Link >INSTALACIONES</Nav.Link>
-                        <Nav.Link >INFORMACIÓN A PACIENTES</Nav.Link>
+                        <Link className="nav-link" to="/">
+                            INSTALACIONES
+                        </Link>
+                        <Link className="nav-link" to="/">
+                            INFORMACIÓN A PACIENTES
+                        </Link>
                         <NavDropdown
                             title="CONSULTA DE ESPECIALIDADES" id="basic-nav-dropdown">
-                            <NavDropdown.Item >CLÍNICA</NavDropdown.Item>
-                            <NavDropdown.Item >FARMACOS Y ARTÍCULOS MÉDICOS DE HERIDAS</NavDropdown.Item>
+                            <Link className="dropdown-item" to="/">
+                                CLÍNICA
+                            </Link>
+                            <Link className="dropdown-item" to="/">
+                                FARMACOS Y ARTÍCULOS MÉDICOS DE HERIDAS
+                            </Link>
                         </NavDropdown>
-                        <Nav.Link >CONTACTO</Nav.Link>
+                        <Link className="nav-link" to="/">
+                            CONTACTO
+                        </Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
