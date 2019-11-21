@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NavbarNavigation from './components/NavbarNavigation';
-import Layout from './components/Layout';
 import Principal from './pages/Principal';
+import Footer from './components/Footer';
 
 
 const App = () => (
@@ -10,11 +10,10 @@ const App = () => (
     <React.Fragment>
       <Router>
         <NavbarNavigation />
-        <Layout>
-          <Switch>
-            <Route exact path="/" component={Principal} />
-          </Switch>
-        </Layout>
+        <Switch>
+          <Route exact path="/" component={Principal} />
+        </Switch>
+        <Footer/>
       </Router>
     </React.Fragment>
   </div>
