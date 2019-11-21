@@ -1,7 +1,7 @@
 import React from 'react'
-import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+import styled from 'styled-components'
 import Logo from '../assets/img/logo.png'
 
 const Styles = styled.div`
@@ -22,7 +22,7 @@ const Styles = styled.div`
         font-weight: bold;
 
         &:hover {
-            color: #FF7964 !important
+            color: #FF7964 !important;
         }
     }
     .container {
@@ -39,7 +39,7 @@ const Styles = styled.div`
         font-size: .92em;
         font-weight: bold;
         &:hover {
-            color: #FF7964 !important
+            color: #FF7964 !important;
         }
     }
     .dropdown>.dropdown-menu {
@@ -91,4 +91,4 @@ const NavbarNavigation = () => (
         </Navbar>
     </Styles>
 )
-export default NavbarNavigation;
+export default NavbarNavigation

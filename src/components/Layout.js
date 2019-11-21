@@ -1,10 +1,11 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
 
-export default function Layout(props) {
-    return (
+const
+
+const Layout = () => (
         <Container>
-            {props.children}
+
         </Container>
     )
-}
+export default Layout
