@@ -10,12 +10,14 @@ const PrincipalPage = styled.div`
         background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
         background: linear-gradient(to right, #ff5e62, #ff9966);
     }
+    
     .boxMsg {
         color: #fff;
         padding: 14%;
         padding-top: 10%;
         text-align: center;
     }
+
     .portada {
         background: url('https://www.uni-ca.com.mx/img/frente-unica.jpg');
         background-size: cover;
@@ -43,6 +45,7 @@ const PrincipalPage = styled.div`
         }
     }
     `
+
 const Title = styled.h1`
         color: #2C3E50;
         font-size: 2.5em;
@@ -53,6 +56,7 @@ const TitleBig = styled(Title)`
         color: white;
         font-size: 3.5em;
     `
+
 const Button = styled.div`
     background: #ff9966;
     background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);
@@ -70,16 +74,19 @@ const Button = styled.div`
         float: left !important;
   }
 `
+
 const BoxText = styled.div`
     display: inline-block;
     margin: 1em auto;
     width:100%;
 `
+
 const BoxInfo = styled(BoxText)`
     margin: 0 auto;
     text-align: center;
     width:100%;
 `
+
 const TitleInfo = styled(Title)`
     text-align: center;
     font-size: 1em;
