@@ -130,7 +130,7 @@ class Instalaciones extends Component {
       return 0.5 - Math.random();
     };
     const randomPhotos = this.state.photos.sort(Randomize);
-
+    // Variables for Gallery component
     const gutterInPercent = 1;
     const columnsMaxCount = 4;
     return (

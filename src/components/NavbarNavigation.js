@@ -70,7 +70,7 @@ const NavbarNavigation = () => (
             <Link className="nav-link" to="/instalaciones">
               INSTALACIONES
             </Link>
-            <Link className="nav-link" to="/">
+            <Link className="nav-link" to="/pacientes">
               INFORMACIÓN A PACIENTES
             </Link>
             <NavDropdown
