@@ -80,7 +80,7 @@ const NavbarNavigation = () => (
               <Link className="dropdown-item" to="/clinica">
                 CLÍNICA
               </Link>
-              <Link className="dropdown-item" to="/">
+              <Link className="dropdown-item" to="/comodin">
                 FARMACOS Y ARTÍCULOS MÉDICOS DE HERIDAS
               </Link>
             </NavDropdown>
