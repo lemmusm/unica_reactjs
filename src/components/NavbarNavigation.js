@@ -77,7 +77,7 @@ const NavbarNavigation = () => (
               title="CONSULTA DE ESPECIALIDADES"
               id="basic-nav-dropdown"
             >
-              <Link className="dropdown-item" to="/">
+              <Link className="dropdown-item" to="/clinica">
                 CLÍNICA
               </Link>
               <Link className="dropdown-item" to="/">

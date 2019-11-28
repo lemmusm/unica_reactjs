@@ -4,6 +4,7 @@ import NavbarNavigation from "./components/NavbarNavigation";
 import Principal from "./pages/Principal";
 import Instalaciones from "./pages/Instalaciones";
 import Pacientes from "./pages/Pacientes";
+import Clinica from "./pages/Clinica";
 import Footer from "./components/Footer";
 
 const App = () => (
@@ -15,6 +16,7 @@ const App = () => (
           <Route exact path="/" component={Principal} />
           <Route exact path="/instalaciones" component={Instalaciones} />
           <Route exact path="/pacientes" component={Pacientes} />
+          <Route exact path="/clinica" component={Clinica} />
         </Switch>
         <Footer />
       </Router>
