@@ -6,6 +6,7 @@ import Instalaciones from "./pages/Instalaciones";
 import Pacientes from "./pages/Pacientes";
 import Clinica from "./pages/Clinica";
 import Comodin from "./pages/Comodin";
+import Contacto from "./pages/Contacto";
 import Footer from "./components/Footer";
 
 const App = () => (
@@ -19,6 +20,7 @@ const App = () => (
           <Route exact path="/pacientes" component={Pacientes} />
           <Route exact path="/clinica" component={Clinica} />
           <Route exact path="/comodin" component={Comodin} />
+          <Route exact path="/contacto" component={Contacto} />
         </Switch>
         <Footer />
       </Router>

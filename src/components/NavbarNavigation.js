@@ -84,7 +84,7 @@ const NavbarNavigation = () => (
                 FARMACOS Y ARTÍCULOS MÉDICOS DE HERIDAS
               </Link>
             </NavDropdown>
-            <Link className="nav-link" to="/">
+            <Link className="nav-link" to="/contacto">
               CONTACTO
             </Link>
           </Nav>
