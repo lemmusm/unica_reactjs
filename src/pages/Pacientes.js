@@ -21,6 +21,9 @@ const PacientesPage = styled.div`
       maring: 0 auto;
       max-width: 95%;
     }
+    .boxTitle {
+      text-align: center;
+    }
   }
 
   .index {
@@ -188,7 +191,7 @@ class Pacientes extends Component {
       <PacientesPage>
         <Banner></Banner>
         <Container className="mt-5 mb-5">
-          <div>
+          <div className="boxTitle">
             <Title>Beneficios</Title>
             <TitlePlus>&nbsp;de la cirugía ambulatoria</TitlePlus>
           </div>
@@ -326,7 +329,7 @@ class Pacientes extends Component {
             </Col>
           </Row>
 
-          <div className="mt-5 mb-5">
+          <div className="boxTitle mt-5 mb-5">
             <TitlePlus>Que debe conocer del</TitlePlus>
             <Title>&nbsp;Pie Diabético</Title>
           </div>
